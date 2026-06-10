@@ -1,0 +1,19 @@
+{
+  "name": "BeyondCode Studio",
+  "short_name": "BeyondCode",
+  "description": "Jasa pembuatan software kustom, aplikasi web dan mobile, sistem enterprise, dan konsultan IT untuk bisnis modern.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080b11",
+  "theme_color": "#080b11",
+  "lang": "id-ID",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

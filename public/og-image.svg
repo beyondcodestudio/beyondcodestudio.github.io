@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">BeyondCode Studio</title>
+  <desc id="desc">Jasa pembuatan software kustom dan konsultan IT untuk bisnis modern.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080b11"/>
+      <stop offset="0.54" stop-color="#101827"/>
+      <stop offset="1" stop-color="#111032"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="28" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1010" cy="110" r="170" fill="#8b5cf6" opacity="0.22" filter="url(#glow)"/>
+  <circle cx="160" cy="520" r="210" fill="#22d3ee" opacity="0.16" filter="url(#glow)"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#111827" opacity="0.7" stroke="#334155"/>
+  <g transform="translate(112 118)">
+    <text x="0" y="0" fill="#f8fafc" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800">BeyondCode Studio</text>
+    <circle cx="414" cy="-12" r="9" fill="url(#accent)"/>
+    <text x="0" y="118" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Jasa Pembuatan</text>
+    <text x="0" y="202" fill="url(#accent)" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800">Software &amp; Konsultan IT</text>
+    <text x="0" y="286" fill="#cbd5e1" font-family="Inter, Arial, sans-serif" font-size="30">Web, mobile, enterprise system, cloud, DevOps, cybersecurity.</text>
+    <g transform="translate(0 352)">
+      <rect width="190" height="46" rx="23" fill="#172033" stroke="#334155"/>
+      <text x="28" y="31" fill="#67e8f9" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Custom Software</text>
+      <rect x="212" width="146" height="46" rx="23" fill="#172033" stroke="#334155"/>
+      <text x="240" y="31" fill="#93c5fd" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Cloud</text>
+      <rect x="380" width="162" height="46" rx="23" fill="#172033" stroke="#334155"/>
+      <text x="408" y="31" fill="#c4b5fd" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">DevOps</text>
+    </g>
+  </g>
+</svg>
