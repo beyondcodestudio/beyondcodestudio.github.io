@@ -3,9 +3,14 @@
 import '../style.css';
 import { initScrollAnimations, initStatsCounter } from './animations.js';
 import { initContactForm } from './contact.js';
+import { initI18n, switchLanguage, SUPPORTED_LANGUAGES } from './i18n.js';
 
-document.addEventListener('DOMContentLoaded', () => {
-  // 1. Theme Toggle (run first so no flash of wrong theme)
+document.addEventListener('DOMContentLoaded', async () => {
+  // 0. I18n Localization (initialize first so all content is translated)
+  await initI18n();
+  initLanguageSwitcher();
+
+  // 1. Theme Toggle (run early so no flash of wrong theme)
   initThemeToggle();
 
   // 2. Navigation Actions
@@ -203,6 +208,58 @@ function initPortfolioFilter() {
           }, 300);
         }
       });
+    });
+  });
+}
+
+/* Language Switcher */
+function initLanguageSwitcher() {
+  const switcher = document.getElementById('language-switcher');
+  if (!switcher) return;
+
+  const currentBtn = switcher.querySelector('#current-lang-btn');
+  const dropdown = switcher.querySelector('#lang-dropdown');
+  const langOptions = switcher.querySelectorAll('.lang-option');
+
+  // Toggle dropdown
+  if (currentBtn) {
+    currentBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      dropdown.classList.toggle('active');
+      currentBtn.setAttribute('aria-expanded', dropdown.classList.contains('active'));
+    });
+  }
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!switcher.contains(e.target)) {
+      dropdown.classList.remove('active');
+      if (currentBtn) {
+        currentBtn.setAttribute('aria-expanded', 'false');
+      }
+    }
+  });
+
+  // Handle language selection
+  langOptions.forEach(option => {
+    option.addEventListener('click', async (e) => {
+      const lang = e.currentTarget.getAttribute('data-lang');
+      if (lang && SUPPORTED_LANGUAGES[lang]) {
+        await switchLanguage(lang);
+
+        // Update current language button
+        const langInfo = SUPPORTED_LANGUAGES[lang];
+        currentBtn.innerHTML = `${langInfo.flag} ${langInfo.name}`;
+        currentBtn.setAttribute('data-lang', lang);
+
+        // Close dropdown
+        dropdown.classList.remove('active');
+        currentBtn.setAttribute('aria-expanded', 'false');
+
+        // Update active state
+        langOptions.forEach(opt => opt.classList.remove('active'));
+        e.currentTarget.classList.add('active');
+      }
     });
   });
 }

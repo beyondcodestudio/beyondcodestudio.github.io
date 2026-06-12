@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "BeyondCode Studio | Custom Software Development & IT Consultant",
+    "description": "BeyondCode Studio helps businesses build custom software, web and mobile applications, enterprise systems, cloud architecture, DevOps, cybersecurity, and digital transformation strategies.",
+    "keywords": "custom software development, IT consultant, software house Indonesia, application development, web development, mobile app development, cloud architecture, DevOps, cybersecurity, BeyondCode Studio",
+    "ogTitle": "BeyondCode Studio | Custom Software Development & IT Consultant",
+    "ogDescription": "Build web apps, mobile systems, enterprise solutions, and IT strategies ready to grow with the BeyondCode Studio team.",
+    "ogImageAlt": "BeyondCode Studio - custom software development and IT consultant"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "workflow": "Workflow",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "cta": "Free Consultation"
+  },
+  "hero": {
+    "title": "Custom Software Development &",
+    "titleHighlight": "IT Consultant",
+    "titleSuffix": "for Modern Business.",
+    "description": "BeyondCode Studio delivers premium software engineering solutions, web and mobile applications, enterprise systems, cloud architecture, cybersecurity, and strategic IT consulting to help your business grow faster, safer, and ready for the digital future.",
+    "primaryBtn": "Start Project",
+    "secondaryBtn": "View Services",
+    "configLabel": "BeyondCode Configuration Code"
+  },
+  "stats": {
+    "about": "About BeyondCode Studio",
+    "projects": "PROJECTS COMPLETED",
+    "clients": "ACTIVE CLIENTS",
+    "rating": "CLIENT SATISFACTION %",
+    "experience": "YEARS EXPERIENCE"
+  },
+  "services": {
+    "title": "Our Premium Services",
+    "description": "Integrated technology solutions from ideation to deployment, specifically tailored to your business challenges.",
+    "softwareDev": {
+      "title": "Software Development",
+      "description": "We design and develop robust, large-scale software systems optimized for high performance.",
+      "features": [
+        "Custom Web Applications (React, Vue, NextJS)",
+        "iOS & Android Mobile Apps (Flutter, React Native)",
+        "Enterprise Management Systems (ERP, CRM)",
+        "API Integration & Microservices Architecture"
+      ]
+    },
+    "itConsulting": {
+      "title": "IT Consultant & Strategy",
+      "description": "Guiding your business digital transformation through in-depth technology analysis, risk management, and targeted IT architecture.",
+      "features": [
+        "Cloud Architecture & Infrastructure Planning",
+        "System Security Audit & Cybersecurity",
+        "Cloud Migration Strategy & DevOps Automation",
+        "Staff Augmentation & Dedicated Developer Teams"
+      ]
+    }
+  },
+  "workflow": {
+    "title": "Our Methodology",
+    "description": "A structured, transparent, and adaptive process designed to launch high-quality products on time.",
+    "steps": [
+      {
+        "title": "Discover & Analysis",
+        "description": "We discuss in depth to understand your business processes, user needs, long-term goals, and precisely map the project scope."
+      },
+      {
+        "title": "Architecture & Design",
+        "description": "Designing database structure, cloud architecture, API schemas, and intuitive user interface blueprints (UI/UX Mockups)."
+      },
+      {
+        "title": "Iterative Development",
+        "description": "Coding with Agile/Scrum methodology. You get regular updates every sprint and can monitor progress periodically."
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "Systems are rigorously tested, covering functionality, security, load integration testing, and cross-platform compatibility."
+      },
+      {
+        "title": "Deploy & Support",
+        "description": "Launching your product to live server/app store, providing operational training, and post-release maintenance (bug fixing & monitoring)."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio Showcase",
+    "description": "See how we help various industries transform and lead markets with innovative technology platforms.",
+    "filters": {
+      "all": "All Projects",
+      "software": "Software Dev",
+      "consulting": "IT Consulting"
+    },
+    "projects": [
+      {
+        "title": "Apex ERP Solution",
+        "category": "Software Dev",
+        "tag": "Enterprise Software",
+        "description": "Multi-platform custom ERP system for large-scale manufacturing to monitor inventory in real-time.",
+        "cta": "Discuss Similar Project"
+      },
+      {
+        "title": "Fintech AWS Migration",
+        "category": "IT Consulting",
+        "tag": "Cloud Infrastructure",
+        "description": "Technology infrastructure audit and safe 100% migration of fintech database to AWS Cloud with zero downtime.",
+        "cta": "Discuss Similar Project"
+      },
+      {
+        "title": "MedCare Telehealth App",
+        "category": "Software Dev",
+        "tag": "Mobile Application",
+        "description": "Telemedicine mobile application connecting 500+ specialist doctors with thousands of patients in real-time.",
+        "cta": "Discuss Similar Project"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions About Software & IT Consultant Services",
+    "description": "Brief answers to help you evaluate BeyondCode Studio's fit before starting project discussions.",
+    "items": [
+      {
+        "question": "What services does BeyondCode Studio provide?",
+        "answer": "BeyondCode Studio provides custom software development, web and mobile applications, enterprise systems, API integration, cloud architecture, DevOps, cybersecurity, and IT consulting."
+      },
+      {
+        "question": "Do you serve businesses across Indonesia?",
+        "answer": "Yes. The discovery, design, development, quality assurance, deployment, and support processes can run remotely for businesses in various cities across Indonesia."
+      },
+      {
+        "question": "How do I start a project consultation?",
+        "answer": "Tell us about your project needs through the contact form, email, or WhatsApp. Our team will help map technical requirements, feature priorities, risks, and development approach estimates."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Discuss Your Project",
+    "description": "Contact our team today for a free consultation. We're ready to analyze your technical needs and prepare an efficient development proposal.",
+    "email": {
+      "label": "Official Email",
+      "ariaLabel": "Contact via Email"
+    },
+    "whatsapp": {
+      "label": "WhatsApp HotLine",
+      "ariaLabel": "Contact via WhatsApp"
+    },
+    "form": {
+      "ariaLabel": "Technology Consultation Form",
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject / Topic",
+      "message": "Describe your project needs...",
+      "submit": "Send Consultation Request",
+      "emailPlaceholder": "Your email address..."
+    }
+  },
+  "footer": {
+    "description": "Helping realize world-class digital products with the best engineering techniques and visionary IT strategy design.",
+    "services": "Services",
+    "company": "Company",
+    "newsletter": "Newsletter Subscription",
+    "newsletterDescription": "Get the latest industry technology insights directly in your inbox every month.",
+    "newsletterJoin": "Join",
+    "copyright": "&copy; 2026 BeyondCode Studio. All Rights Reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "accessibility": {
+    "skipLink": "Skip to main content",
+    "toggleTheme": "Toggle theme",
+    "openMenu": "Open Navigation Menu",
+    "closeMenu": "Close Navigation Menu"
+  }
+}

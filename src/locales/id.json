@@ -1,0 +1,173 @@
+{
+  "meta": {
+    "title": "BeyondCode Studio | Jasa Pembuatan Software & Konsultan IT",
+    "description": "BeyondCode Studio membantu bisnis membangun software kustom, aplikasi web dan mobile, sistem enterprise, cloud architecture, DevOps, cybersecurity, dan strategi transformasi digital.",
+    "keywords": "jasa pembuatan software, konsultan IT, software house Indonesia, jasa pembuatan aplikasi, web development, mobile app development, cloud architecture, DevOps, cybersecurity, BeyondCode Studio",
+    "ogTitle": "BeyondCode Studio | Jasa Pembuatan Software & Konsultan IT",
+    "ogDescription": "Bangun aplikasi web, mobile, sistem enterprise, dan strategi IT yang siap tumbuh bersama tim BeyondCode Studio.",
+    "ogImageAlt": "BeyondCode Studio - jasa pembuatan software dan konsultan IT"
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "services": "Layanan",
+    "workflow": "Alur Kerja",
+    "portfolio": "Portfolio",
+    "contact": "Kontak",
+    "cta": "Konsultasi Gratis"
+  },
+  "hero": {
+    "title": "Jasa Pembuatan Software Kustom &",
+    "titleHighlight": "Konsultan IT",
+    "titleSuffix": "untuk Bisnis Modern.",
+    "description": "BeyondCode Studio menghadirkan solusi rekayasa perangkat lunak premium, aplikasi web dan mobile, sistem enterprise, cloud architecture, cybersecurity, serta konsultasi IT strategis untuk membantu bisnis Anda tumbuh lebih cepat, lebih aman, dan siap menghadapi masa depan digital.",
+    "primaryBtn": "Mulai Proyek",
+    "secondaryBtn": "Lihat Layanan",
+    "configLabel": "Kode Konfigurasi BeyondCode"
+  },
+  "stats": {
+    "about": "Tentang BeyondCode Studio",
+    "projects": "PROYEK SELESAI",
+    "clients": "KLIEN AKTIF",
+    "rating": "KEPUASAN KLIEN %",
+    "experience": "TAHUN PENGALAMAN"
+  },
+  "services": {
+    "title": "Layanan Premium Kami",
+    "description": "Solusi teknologi terintegrasi dari tahap ideasi hingga deployment, disesuaikan secara khusus dengan tantangan bisnis Anda.",
+    "softwareDev": {
+      "title": "Software Development",
+      "description": "Kami merancang dan mengembangkan sistem perangkat lunak yang tangguh, berskala besar, serta dioptimalkan untuk performa tinggi.",
+      "features": [
+        "Aplikasi Web Kustom (React, Vue, NextJS)",
+        "Aplikasi Mobile iOS & Android (Flutter, React Native)",
+        "Sistem Manajemen Enterprise (ERP, CRM)",
+        "Integrasi API & Arsitektur Microservices"
+      ]
+    },
+    "itConsulting": {
+      "title": "IT Consultant & Strategy",
+      "description": "Membimbing transformasi digital bisnis Anda melalui analisis teknologi mendalam, manajemen risiko, dan arsitektur IT yang tepat sasaran.",
+      "features": [
+        "Perencanaan Arsitektur & Infrastruktur Cloud",
+        "Audit Keamanan Sistem & Cybersecurity",
+        "Strategi Migrasi Cloud & DevOps Automation",
+        "Staff Augmentation & Tim Developer Khusus"
+      ]
+    }
+  },
+  "workflow": {
+    "title": "Metodologi Kerja Kami",
+    "description": "Proses terstruktur yang transparan dan adaptif, dirancang untuk meluncurkan produk berkualitas tinggi tepat waktu.",
+    "steps": [
+      {
+        "title": "Discover & Analisis",
+        "description": "Kami berdiskusi secara mendalam untuk memahami proses bisnis, kebutuhan pengguna, sasaran jangka panjang, dan memetakan ruang lingkup proyek secara presisi."
+      },
+      {
+        "title": "Arsitektur & Desain",
+        "description": "Merancang struktur database, arsitektur cloud, skema API, beserta cetak biru antarmuka pengguna (UI/UX Mockup) yang intuitif."
+      },
+      {
+        "title": "Iterative Development",
+        "description": "Melakukan coding dengan metodologi Agile/Scrum. Anda mendapatkan update berkala setiap sprint dan dapat memantau progres secara berkala."
+      },
+      {
+        "title": "Quality Assurance",
+        "description": "Sistem diuji secara ketat, mencakup pengujian fungsionalitas, keamanan, integrasi beban (load testing), serta kompabilitas lintas platform."
+      },
+      {
+        "title": "Deploy & Support",
+        "description": "Meluncurkan produk Anda ke live server/app store, memberikan pelatihan operasional, serta pemeliharaan pasca rilis (bug fixing & monitoring)."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Portfolio Showcase",
+    "description": "Lihat bagaimana kami membantu berbagai industri bertransformasi dan memimpin pasar dengan platform teknologi inovatif.",
+    "filters": {
+      "all": "Semua Proyek",
+      "software": "Software Dev",
+      "consulting": "IT Consulting"
+    },
+    "projects": [
+      {
+        "title": "Apex ERP Solution",
+        "category": "Software Dev",
+        "tag": "Enterprise Software",
+        "description": "Sistem ERP kustom multi-platform untuk manufaktur berskala besar untuk memantau inventori secara real-time.",
+        "cta": "Diskusikan Proyek Serupa"
+      },
+      {
+        "title": "Fintech AWS Migration",
+        "category": "IT Consulting",
+        "tag": "Cloud Infrastructure",
+        "description": "Audit infrastruktur teknologi dan migrasi aman 100% database fintech ke AWS Cloud dengan zero downtime.",
+        "cta": "Diskusikan Proyek Serupa"
+      },
+      {
+        "title": "MedCare Telehealth App",
+        "category": "Software Dev",
+        "tag": "Mobile Application",
+        "description": "Aplikasi mobile telemedicine yang menghubungkan 500+ dokter spesialis dengan ribuan pasien secara real-time.",
+        "cta": "Diskusikan Proyek Serupa"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan Seputar Jasa Software & Konsultan IT",
+    "description": "Jawaban singkat untuk membantu Anda menilai kecocokan BeyondCode Studio sebelum memulai diskusi proyek.",
+    "items": [
+      {
+        "question": "Apa saja layanan BeyondCode Studio?",
+        "answer": "BeyondCode Studio menyediakan jasa pembuatan software kustom, aplikasi web dan mobile, sistem enterprise, API integration, cloud architecture, DevOps, cybersecurity, dan konsultasi IT."
+      },
+      {
+        "question": "Apakah melayani bisnis di seluruh Indonesia?",
+        "answer": "Ya. Proses discovery, desain, development, quality assurance, deployment, dan support dapat berjalan jarak jauh untuk bisnis di berbagai kota di Indonesia."
+      },
+      {
+        "question": "Bagaimana cara memulai konsultasi proyek?",
+        "answer": "Ceritakan kebutuhan proyek melalui formulir kontak, email, atau WhatsApp. Tim kami akan membantu memetakan kebutuhan teknis, prioritas fitur, risiko, dan estimasi pendekatan pengembangan."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Diskusikan Proyek Anda",
+    "description": "Hubungi tim kami hari ini untuk konsultasi gratis. Kami siap menganalisis kebutuhan teknis Anda dan menyiapkan proposal pengembangan yang efisien.",
+    "email": {
+      "label": "Email Resmi",
+      "ariaLabel": "Hubungi via Email"
+    },
+    "whatsapp": {
+      "label": "WhatsApp HotLine",
+      "ariaLabel": "Hubungi via WhatsApp"
+    },
+    "form": {
+      "ariaLabel": "Formulir Konsultasi Teknologi",
+      "name": "Nama Lengkap",
+      "email": "Alamat Email",
+      "subject": "Subjek / Topik",
+      "message": "Jelaskan kebutuhan proyek Anda...",
+      "submit": "Kirim Permintaan Konsultasi",
+      "emailPlaceholder": "Alamat email Anda..."
+    }
+  },
+  "footer": {
+    "description": "Membantu mewujudkan produk digital kelas dunia dengan teknik rekayasa terbaik serta rancangan strategi IT yang visioner.",
+    "services": "Layanan",
+    "company": "Perusahaan",
+    "newsletter": "Langganan Berita",
+    "newsletterDescription": "Dapatkan insight teknologi industri terupdate langsung di inbox email Anda setiap bulan.",
+    "newsletterJoin": "Join",
+    "copyright": "&copy; 2026 BeyondCode Studio. All Rights Reserved. Hak Cipta Dilindungi.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
+  },
+  "accessibility": {
+    "skipLink": "Lewati ke konten utama",
+    "toggleTheme": "Toggle tema",
+    "openMenu": "Buka Menu Navigasi",
+    "closeMenu": "Tutup Menu Navigasi"
+  }
+}
