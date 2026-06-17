@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://beyondcodestudio.github.io/sitemap.xml
+Sitemap: https://beyondcodestudio.web.id/sitemap.xml
